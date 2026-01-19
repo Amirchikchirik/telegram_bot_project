@@ -1,7 +1,7 @@
 import telebot
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton, ReplyKeyboardMarkup, KeyboardButton
 
-bot = telebot.TeleBot('Your key')
+bot = telebot.TeleBot('BOT_TOKEN')
 
 notes = {}
 
