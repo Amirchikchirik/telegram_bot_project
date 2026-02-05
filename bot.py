@@ -1,7 +1,8 @@
+import os
 import telebot
-from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton, ReplyKeyboardMarkup, KeyboardButton
+from telebot.types import ReplyKeyboardMarkup, KeyboardButton
 
-bot = telebot.TeleBot('BOT_TOKEN')
+bot = telebot.TeleBot(os.getenv('BOT_TOKEN'))
 
 notes = {}
 
